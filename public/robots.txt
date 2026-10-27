@@ -1,0 +1,13 @@
+# Robots.txt for SATYA D'LITE (Dayan Enterprises & Co)
+# Web crawler directives
+
+User-agent: *
+Allow: /
+
+# Disallow private asset directories
+Disallow: /_image_backup/
+
+# Production Sitemap:
+# Note: Provide the full canonical sitemap URL once the live production domain is deployed.
+# Example: Sitemap: https://<production-domain>/sitemap.xml
+

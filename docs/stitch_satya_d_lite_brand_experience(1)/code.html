@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Satya D'Lite — Pure Tradition. Heritage in Every Drop. | Cold-Pressed Coconut &amp; Pooja Oils</title>
+<!-- Google Fonts: Editorial Plus Jakarta Sans & Tamil Font Support -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Noto+Sans+Tamil:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration conforming to disciplined grayscale + Satya D'Lite Blue (#145DA0) -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandBlue: {
+              DEFAULT: '#145DA0',
+              50: '#F0F7FD',
+              100: '#E1EFFB',
+              600: '#145DA0',
+              700: '#0E4477',
+              800: '#0B335C',
+              900: '#07223F',
+            },
+            deepNavy: '#0B2545',
+            surfaceSlate: '#F8FAFC',
+            surfaceMuted: '#F1F5F9',
+            borderLight: '#E2E8F0',
+            borderSubtle: '#CBD5E1',
+            textMain: '#0F172A',
+            textMuted: '#475569',
+            textSecondary: '#64748B',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            tamil: ['"Noto Sans Tamil"', '"Latha"', 'sans-serif'],
+          },
+          boxShadow: {
+            'soft': '0 1px 3px 0 rgba(15, 23, 42, 0.05), 0 1px 2px -1px rgba(15, 23, 42, 0.05)',
+            'card': '0 4px 6px -1px rgba(15, 23, 42, 0.04), 0 2px 4px -2px rgba(15, 23, 42, 0.03)',
+            'card-hover': '0 12px 24px -4px rgba(15, 23, 42, 0.08), 0 4px 8px -2px rgba(15, 23, 42, 0.03)',
+            'studio': '0 20px 40px -15px rgba(11, 37, 69, 0.12)',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      color: #0F172A;
+      background-color: #FFFFFF;
+    }
+    .font-tamil {
+      font-family: 'Noto Sans Tamil', 'Latha', sans-serif;
+    }
+    .product-shadow {
+      filter: drop-shadow(0 10px 14px rgba(15, 23, 42, 0.12));
+    }
+    .product-shadow-deep {
+      filter: drop-shadow(0 16px 22px rgba(15, 23, 42, 0.18));
+    }
+  </style>
+</head>
+<body class="bg-white text-textMain antialiased selection:bg-brandBlue selection:text-white">
+<!-- ==================== 1. HEADER & NAVIGATION ==================== -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 transition-all duration-200" id="site-header">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<!-- Brand Logo -->
+<a aria-label="Satya D'Lite Home" class="flex items-center space-x-3 focus:outline-none" href="#home">
+<img alt="Satya D'Lite Logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPIBv_Dm6l3iiUW2nXV2-H-ZM-bWJwhts5ZaC_ktGIbEqQOLQIRxOn7HbXKUshLZubC6syi9fhECIwzBi2qXp2USsyD8ofEmgL_3pkNRes20_DVaq3O-yXqpiNw-zcBE4Ocd7g986V2ixGcQ_FbF3ipFr4_ZKNCgY7olFpAKtQetVfYN1YMAs_yCXKdmUmiZTlG-SEq2KrUUYSo3PEqYqD3dBpHLeHQBsRls4us8XjWZdoV-C4i22Xhtf-E2HAymUR3g"/>
+</a>
+<!-- Desktop Navigation Links -->
+<nav aria-label="Primary Navigation" class="hidden lg:flex items-center space-x-8 text-sm font-medium text-slate-700">
+<a class="text-brandBlue font-semibold transition-colors duration-150" href="#home">Home</a>
+<a class="hover:text-brandBlue transition-colors duration-150" href="#about">About Us</a>
+<a class="hover:text-brandBlue transition-colors duration-150" href="#products">Products</a>
+<a class="hover:text-brandBlue transition-colors duration-150" href="#benefits">Benefits</a>
+<a class="hover:text-brandBlue transition-colors duration-150" href="#tradition">Our Tradition</a>
+<a class="hover:text-brandBlue transition-colors duration-150" href="#bulk">Commercial Bulk</a>
+<a class="hover:text-brandBlue transition-colors duration-150" href="#contact">Contact</a>
+</nav>
+<!-- Right: Language Toggle & CTA Button -->
+<div class="hidden sm:flex items-center space-x-4">
+<!-- Language Selector -->
+<div class="inline-flex items-center p-1 bg-slate-100 rounded-lg border border-slate-200 text-xs font-semibold" data-purpose="language-toggle">
+<button class="px-2.5 py-1 rounded bg-white text-slate-900 shadow-xs font-bold transition-all" id="lang-btn-en" onclick="setLanguage('en')">EN</button>
+<button class="px-2.5 py-1 rounded text-slate-600 hover:text-brandBlue font-tamil transition-all" id="lang-btn-ta" onclick="setLanguage('ta')">தமிழ்</button>
+</div>
+<!-- Primary CTA Button -->
+<a class="inline-flex items-center justify-center px-5 py-2.5 text-xs tracking-wider uppercase font-semibold rounded-lg bg-brandBlue text-white hover:bg-brandBlue-700 transition-colors shadow-xs" href="#contact">
+            Enquire Now
+          </a>
+</div>
+<!-- Mobile Menu Toggle Button -->
+<div class="flex items-center lg:hidden space-x-3">
+<div class="inline-flex items-center p-1 bg-slate-100 rounded-lg border border-slate-200 text-xs font-semibold">
+<button class="px-2 py-0.5 rounded bg-white text-slate-900 shadow-xs" onclick="setLanguage('en')">EN</button>
+<button class="px-2 py-0.5 rounded text-slate-600 font-tamil" onclick="setLanguage('ta')">தமிழ்</button>
+</div>
+<button aria-label="Toggle menu" class="p-2 text-slate-700 hover:text-slate-900 focus:outline-none" id="mobile-menu-btn">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile Dropdown Menu -->
+<div class="hidden lg:hidden bg-white border-b border-slate-200 px-6 py-5 space-y-3" id="mobile-menu">
+<a class="block py-1.5 text-sm font-semibold text-brandBlue" href="#home">Home</a>
+<a class="block py-1.5 text-sm font-medium text-slate-700 hover:text-brandBlue" href="#about">About Us</a>
+<a class="block py-1.5 text-sm font-medium text-slate-700 hover:text-brandBlue" href="#products">Our Products (15 Range)</a>
+<a class="block py-1.5 text-sm font-medium text-slate-700 hover:text-brandBlue" href="#benefits">Purity &amp; Quality Benefits</a>
+<a class="block py-1.5 text-sm font-medium text-slate-700 hover:text-brandBlue" href="#tradition">Our Tradition</a>
+<a class="block py-1.5 text-sm font-medium text-slate-700 hover:text-brandBlue" href="#bulk">Commercial Bulk Tins</a>
+<a class="block py-1.5 text-sm font-medium text-slate-700 hover:text-brandBlue" href="#contact">Contact</a>
+<a class="block w-full text-center mt-3 py-2.5 bg-brandBlue text-white rounded-lg text-xs uppercase tracking-wider font-semibold" href="#contact">Enquire Now</a>
+</div>
+</header>
+<!-- ==================== 2. HERO SECTION ==================== -->
+<section class="relative bg-white pt-10 pb-16 md:pt-16 md:pb-24 border-b border-slate-200/60" id="home">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left Text Column -->
+<div class="lg:col-span-6 space-y-6 text-left">
+<!-- Subtle Factual Badge -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-slate-100 border border-slate-200 text-slate-700 text-xs font-semibold tracking-wide">
+<span class="w-2 h-2 rounded-full bg-brandBlue"></span>
+<span>Pure South Indian Cold-Pressed Oils • FSSAI Certified</span>
+</div>
+<!-- Editorial Headline -->
+<h1 class="text-4xl sm:text-5xl xl:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.12]">
+            Purity You Can Trust.<br/>
+<span class="text-brandBlue font-bold">Heritage in Every Drop.</span>
+</h1>
+<!-- Bilingual Subheading -->
+<p class="font-tamil text-base md:text-lg text-slate-700 font-semibold leading-relaxed">
+            பாரம்பரிய தூய்மை — எங்கள் குடும்பத்தின் அடையாளம்.
+          </p>
+<p class="text-base text-slate-600 leading-relaxed max-w-xl">
+            Dayan Enterprises &amp; Co. crafts unadulterated cold-pressed coconut oil and sacred deepam oil, milled from select Kangeyam copra for wholesome kitchens, daily personal care, and devotional prayer rituals across Southern India.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-2">
+<a class="inline-flex justify-center items-center px-7 py-3.5 text-xs uppercase tracking-wider font-semibold rounded-lg bg-brandBlue text-white hover:bg-brandBlue-700 shadow-sm transition-all" href="#products">
+              Explore Our Products
+            </a>
+<a class="inline-flex justify-center items-center px-7 py-3.5 text-xs uppercase tracking-wider font-semibold rounded-lg bg-white border border-slate-300 text-slate-800 hover:bg-slate-50 transition-all" href="#about">
+              About Satya D'Lite
+            </a>
+</div>
+<!-- Factual Trust Strip -->
+<div class="pt-6 border-t border-slate-200 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs font-medium text-slate-700">
+<div class="flex items-center space-x-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brandBlue"></span>
+<span>100% Pure Copra</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brandBlue"></span>
+<span>Hygienic Extraction</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brandBlue"></span>
+<span>Zero Adulteration</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brandBlue"></span>
+<span>Batch-Coded Packs</span>
+</div>
+</div>
+</div>
+<!-- Right Showcase Stage (Art-directed authentic lineup) -->
+<div class="lg:col-span-6">
+<div class="relative rounded-2xl bg-surfaceSlate border border-slate-200/80 p-6 sm:p-8 flex flex-col justify-end min-h-[460px] shadow-sm">
+<!-- Product Arrangement: Tin + 1L Bottle + 1000ml Pouch + Sathyam Deepam -->
+<div class="relative w-full h-[360px] flex items-end justify-center gap-2 sm:gap-5 pb-3">
+<!-- 15kg Tin -->
+<div class="flex flex-col items-center w-[26%] max-w-[130px] transition-transform duration-200 hover:-translate-y-1">
+<div class="h-44 sm:h-52 w-full flex items-end justify-center">
+<img alt="Satya Delux 15kg Commercial Tin" class="h-full w-auto object-contain rounded product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaCNWgUIGyXsJI3jW4e-zTyZQamboR6UJnOCuZ0OgR64sr2zmlgIQnvfIlxjxOXYvD1GiBDA3Xh83mNLJhi9pXF89571dA5qqyR1KQ3_YFjhqpzi4st4beq2mQYfDfK3CKHEnP_ZajSVnNiMAS_LuPsDrZ1vSxtlbmhN0jAURxi1UccWDjtn7Xv_-4qA1bqXmdvJl48LgrHaeyajJLi7-OubD3XlrNGDLIdXW5R7TIHw-BDS6FS8Bw72ggpmf_lyta0A"/>
+</div>
+<span class="mt-2 text-[10px] font-semibold tracking-wider uppercase text-slate-700 bg-white px-2 py-0.5 rounded border border-slate-200 shadow-xs">15kg Tin</span>
+</div>
+<!-- 1L Bottle (Center Focus) -->
+<div class="flex flex-col items-center w-[24%] max-w-[120px] transition-transform duration-200 hover:-translate-y-1 z-10">
+<div class="h-56 sm:h-68 w-full flex items-end justify-center">
+<img alt="Satya D'Lite 1 Litre Bottle" class="h-full w-auto object-contain product-shadow-deep" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ7ytxW77zjCG1KUfLlbB7XB9hQAnArAH49uSOi6kcDGDULdGW4PlH_0LLGzUgU4dpRt0L7uzK97kojtjlqf7wBqL4HEVewHepztEDU-XTMHWb3KTS2DUZRmRePmh8IiIFKN3Rk94P9bfAliEw_Efn52PN2LV6yJ7WnRXGydCmysN_LLHI8lkzcMNhjuFzembNjFTDqIybzc793GliQ4ha9TYX7ZILt5deor6D6LSZj8_a32SxOezUcno2BghNNh-fog"/>
+</div>
+<span class="mt-2 text-[10px] font-bold tracking-wider uppercase text-white bg-brandBlue px-2.5 py-0.5 rounded shadow-xs">1L Bottle</span>
+</div>
+<!-- 1000ml Pouch -->
+<div class="flex flex-col items-center w-[24%] max-w-[115px] transition-transform duration-200 hover:-translate-y-1">
+<div class="h-48 sm:h-56 w-full flex items-end justify-center">
+<img alt="Satya D'Lite 1000ml Pouch" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUs1KY1nw7hFFeaeZAYkVQuUKaBCBgUugsEW4JsxIW7lZ2Ak9bwL6pdWGQ1cB9biE5nftPZTwY6oNNige3qFVyGxJvTYpX6SpfVLjLOqKTmN9zuB2s-BwE7S4Tiu3xz_NFmSNc075BhLugFiUu0lbTYou8S6f0fMw-Gv9N2dVCHZ6_6Zw2fsx2LY8aw6jcf9Bj3qlkhIXJEEo9Rt5uB_C1RxkSMBjkFDqhx9p5UVnBFROvB1jMxvhRj_U4jOhLTwaQCA"/>
+</div>
+<span class="mt-2 text-[10px] font-semibold tracking-wider uppercase text-slate-700 bg-white px-2 py-0.5 rounded border border-slate-200 shadow-xs">1000ml Pouch</span>
+</div>
+<!-- Sathyam Pooja Deepam Oil -->
+<div class="flex flex-col items-center w-[22%] max-w-[105px] transition-transform duration-200 hover:-translate-y-1">
+<div class="h-48 sm:h-56 w-full flex items-end justify-center">
+<img alt="Sathyam Pooja Deepam Oil" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYw5S_35Lf3wd_MBNzlEylhOBdoBYhU4m4lWxg6dZ-VtY5ym_F7lRpWKio7TDuAgl8GfSXqTvVV5-bgRcfIdX2oGsBYSk1p727jTGYrVqeJfzR5_EZ_jdLfYeIUXfcv8CQ9mibunrrfZ357m9vmQPsla83ZDIJNnfimPZhQUz4hQ51yVyzQB5BgrrL6XQaYwR68aQcPJuUXANHpkekFxkCxXD9fF0tDrSLy_ycW-4TQt78DRpwURB4mALGu4dnsvhD9A"/>
+</div>
+<span class="mt-2 text-[10px] font-semibold tracking-wider uppercase text-slate-700 bg-white px-2 py-0.5 rounded border border-slate-200 shadow-xs">Pooja Oil</span>
+</div>
+</div>
+<!-- Authentic Manufacturer Caption Strip -->
+<div class="mt-3 bg-white p-3 rounded-lg border border-slate-200 flex items-center justify-between">
+<div>
+<p class="text-xs font-bold text-slate-900">Milled &amp; Packaged in West Thoothukudi</p>
+<p class="text-[11px] text-slate-500">Dayan Enterprises &amp; Co. • FSSAI Lic. 12418029000057</p>
+</div>
+<a class="text-xs font-semibold text-brandBlue hover:underline" href="#about">Our Story →</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 3. BRAND INTRODUCTION / ABOUT US ==================== -->
+<section class="py-16 md:py-24 bg-surfaceSlate border-b border-slate-200/80" id="about">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Side: Visual Frame -->
+<div class="lg:col-span-5">
+<div class="relative rounded-xl overflow-hidden bg-white border border-slate-200 p-2 shadow-sm">
+<div class="aspect-[4/5] rounded-lg overflow-hidden bg-slate-100 flex items-center justify-center p-6">
+<img alt="Satya D'Lite Pure Coconut Oil Bottle Visual" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ7ytxW77zjCG1KUfLlbB7XB9hQAnArAH49uSOi6kcDGDULdGW4PlH_0LLGzUgU4dpRt0L7uzK97kojtjlqf7wBqL4HEVewHepztEDU-XTMHWb3KTS2DUZRmRePmh8IiIFKN3Rk94P9bfAliEw_Efn52PN2LV6yJ7WnRXGydCmysN_LLHI8lkzcMNhjuFzembNjFTDqIybzc793GliQ4ha9TYX7ZILt5deor6D6LSZj8_a32SxOezUcno2BghNNh-fog"/>
+</div>
+<div class="p-4 bg-white">
+<span class="text-[11px] font-bold tracking-wider uppercase text-brandBlue">Milling Heritage</span>
+<p class="text-sm font-bold text-slate-900 mt-0.5">West Thoothukudi, Tamil Nadu</p>
+<p class="text-xs text-slate-500 mt-1">Directly processing sun-dried mature copra for everyday kitchen wellness.</p>
+</div>
+</div>
+</div>
+<!-- Right Side: Concise & Factual Editorial Copy -->
+<div class="lg:col-span-7 space-y-6">
+<div>
+<span class="text-xs font-bold tracking-widest uppercase text-brandBlue">About Satya D'Lite &amp; Dayan Enterprises</span>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              Honest Milling, Wholesome Care, and Sacred Devotion
+            </h2>
+<p class="font-tamil text-slate-700 text-sm font-semibold mt-2">
+              தூய மரபு, அன்றாட நலம் — நல்வாழ்வின் அடித்தளம்.
+            </p>
+</div>
+<p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+            Manufactured by <strong>Dayan Enterprises &amp; Co.</strong> in West Thoothukudi, Tamil Nadu, <strong>Satya D'Lite</strong> represents an enduring dedication to genuine expeller pressing. We screen and mill clean, sun-dried copra to deliver wholesome edible coconut oils for cooking and daily hair nourishment, alongside sanctified pancha deepam oils for traditional temple and home altars.
+          </p>
+<p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+            By pairing traditional expeller pressing with modern hygiene standards, zero chemical refining, and tamper-proof packaging, we supply consistent, reliable quality to families, temples, and institutional partners across Southern India.
+          </p>
+<!-- 3 Key Pillars: Grayscale cards with subtle brand numeric accents -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+<div class="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+<span class="inline-block px-2 py-0.5 rounded text-xs font-bold text-brandBlue bg-slate-100 mb-2">01</span>
+<h3 class="text-xs font-bold uppercase tracking-wider text-slate-900">Kangeyam Copra</h3>
+<p class="text-xs text-slate-500 mt-1 leading-normal">Selected sun-dried copra with optimum oil moisture for natural aroma.</p>
+</div>
+<div class="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+<span class="inline-block px-2 py-0.5 rounded text-xs font-bold text-brandBlue bg-slate-100 mb-2">02</span>
+<h3 class="text-xs font-bold uppercase tracking-wider text-slate-900">Hygienic Bottling</h3>
+<p class="text-xs text-slate-500 mt-1 leading-normal">Multi-stage filtration and food-grade packaging that locks in clarity.</p>
+</div>
+<div class="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+<span class="inline-block px-2 py-0.5 rounded text-xs font-bold text-brandBlue bg-slate-100 mb-2">03</span>
+<h3 class="text-xs font-bold uppercase tracking-wider text-slate-900">Mill Direct Supply</h3>
+<p class="text-xs text-slate-500 mt-1 leading-normal">Transparent batch coding and prompt distribution across retail and B2B.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 4. COMPLETE 15-PRODUCT CATALOGUE ==================== -->
+<section class="py-16 md:py-24 bg-white border-b border-slate-200/80" id="products">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Heading -->
+<div class="text-center max-w-3xl mx-auto mb-10">
+<span class="text-xs font-bold uppercase tracking-widest text-brandBlue">Complete Product Lineup</span>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1 tracking-tight">Our Full 15-Product Range</h2>
+<p class="text-sm text-slate-600 mt-2">Every single pouch, bottle, and bulk tin manufactured to exact purity standards by Dayan Enterprises &amp; Co.</p>
+</div>
+<!-- Category Filter Tabs -->
+<div class="flex flex-wrap items-center justify-center gap-2 mb-12" id="filter-tabs">
+<button class="filter-tab active px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-brandBlue text-white transition-colors" data-filter="all" onclick="filterCategory('all')">
+          All Products (15)
+        </button>
+<button class="filter-tab px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors" data-filter="pouch" onclick="filterCategory('pouch')">
+          Packets (5)
+        </button>
+<button class="filter-tab px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors" data-filter="bottle" onclick="filterCategory('bottle')">
+          Bottles (5)
+        </button>
+<button class="filter-tab px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors" data-filter="deepam" onclick="filterCategory('deepam')">
+          Deepam Oil (3)
+        </button>
+<button class="filter-tab px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors" data-filter="tin" onclick="filterCategory('tin')">
+          Bulk Tins (2)
+        </button>
+</div>
+<!-- 15-Item Product Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="catalog-grid">
+<!-- 1. Pouch 1000ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="pouch">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Pouch 1000ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUs1KY1nw7hFFeaeZAYkVQuUKaBCBgUugsEW4JsxIW7lZ2Ak9bwL6pdWGQ1cB9biE5nftPZTwY6oNNige3qFVyGxJvTYpX6SpfVLjLOqKTmN9zuB2s-BwE7S4Tiu3xz_NFmSNc075BhLugFiUu0lbTYou8S6f0fMw-Gv9N2dVCHZ6_6Zw2fsx2LY8aw6jcf9Bj3qlkhIXJEEo9Rt5uB_C1RxkSMBjkFDqhx9p5UVnBFROvB1jMxvhRj_U4jOhLTwaQCA"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Pure Copra Oil</span>
+<span class="text-slate-500">Pouch Pack</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Coconut Oil Pouch 1000ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">High-barrier pouch for monthly household culinary and personal care needs.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">1000 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Pouch 1000ml', 'Pouch Pack', '1000ml (1 Litre)', 'High-barrier multi-layered laminate preventing sunlight and aroma loss.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAUs1KY1nw7hFFeaeZAYkVQuUKaBCBgUugsEW4JsxIW7lZ2Ak9bwL6pdWGQ1cB9biE5nftPZTwY6oNNige3qFVyGxJvTYpX6SpfVLjLOqKTmN9zuB2s-BwE7S4Tiu3xz_NFmSNc075BhLugFiUu0lbTYou8S6f0fMw-Gv9N2dVCHZ6_6Zw2fsx2LY8aw6jcf9Bj3qlkhIXJEEo9Rt5uB_C1RxkSMBjkFDqhx9p5UVnBFROvB1jMxvhRj_U4jOhLTwaQCA')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Coconut Oil Pouch 1000ml')">Enquire</a>
+</div>
+</div>
+<!-- 2. Pouch 500ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="pouch">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Pouch 500ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6ioopOvlLp0-Pycc4rXXn1z83MJMA-bVM_SYOckwbnbxAfkjzzgoxoV-l_0K6WO6q2qzGEpVZpZw83xbXNQXENVMZKs3b5B0ZmUXxRzhvFsOlG5RORy_rYKG6_DSCR_nTBBAciO73SBI6G1rZkRlZ5t1yCqNtTRmXapi44Uy5W1DSedzO0D_D2xwm4gkQxMCSeQKCT4_ZnDt25u7-RaVPifhqwMmnVza-XIh5ZSihQUswjQi3oXkT0W-la6kr8oovaQ"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Pure Copra Oil</span>
+<span class="text-slate-500">Pouch Pack</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Coconut Oil Pouch 500ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Convenient medium family kitchen pouch retaining fresh natural coconut aroma.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">500 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Pouch 500ml', 'Pouch Pack', '500ml', 'Durable multi-layer food-safe packaging with easy cut corner.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuC6ioopOvlLp0-Pycc4rXXn1z83MJMA-bVM_SYOckwbnbxAfkjzzgoxoV-l_0K6WO6q2qzGEpVZpZw83xbXNQXENVMZKs3b5B0ZmUXxRzhvFsOlG5RORy_rYKG6_DSCR_nTBBAciO73SBI6G1rZkRlZ5t1yCqNtTRmXapi44Uy5W1DSedzO0D_D2xwm4gkQxMCSeQKCT4_ZnDt25u7-RaVPifhqwMmnVza-XIh5ZSihQUswjQi3oXkT0W-la6kr8oovaQ')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Coconut Oil Pouch 500ml')">Enquire</a>
+</div>
+</div>
+<!-- 3. Pouch 100ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="pouch">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Pouch 100ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCso99sjlFNxRqXX6azbx0ktnyDVesH9Rq3nfMtJmpFwQqAmJ8HtpwPq0apORcc8QihnMm3uUF5E19KCb31JeTcFCyBDL9NG2uVFUZGUU14Wt2bBkBTwHTMueu2UFGWK9Slw_HjFgn6QHgmvwl3EVlvJICwohERg7VmumdXnkI0S1knb7TKtgjPY5TsYF0rdImmsKhNvZAsJCwzMIiw1G643CirMeZIYg4yQNa_GvVGtmShb0TnjklWO0YsuyRLchAVbQ"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Pure Copra Oil</span>
+<span class="text-slate-500">Pouch Pack</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Coconut Oil Pouch 100ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Compact retail pouch ideal for weekly hair care and cooking trial.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">100 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Pouch 100ml', 'Pouch Pack', '100ml', 'Everyday retail pouch keeping coconut oil natural and fragrant.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCso99sjlFNxRqXX6azbx0ktnyDVesH9Rq3nfMtJmpFwQqAmJ8HtpwPq0apORcc8QihnMm3uUF5E19KCb31JeTcFCyBDL9NG2uVFUZGUU14Wt2bBkBTwHTMueu2UFGWK9Slw_HjFgn6QHgmvwl3EVlvJICwohERg7VmumdXnkI0S1knb7TKtgjPY5TsYF0rdImmsKhNvZAsJCwzMIiw1G643CirMeZIYg4yQNa_GvVGtmShb0TnjklWO0YsuyRLchAVbQ')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Coconut Oil Pouch 100ml')">Enquire</a>
+</div>
+</div>
+<!-- 4. Pouch 50ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="pouch">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Pouch 50ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2rH0QXAMWETdzgLOMrp6hrktRm_eh874N5EBIDpxDgWM8etGWwndVHzN1pSDWybrEzpq5ORn9d834yhYjlc6YWT28Nn-1vwYVBpGMTDVHSnUmAl9n54cXxAMZDbK30c-WH_x6bvB_eC5_7iOV3SsppkJTqdzn7Souge2szhIiVq17Q6F439SvQaBUL6-aSosD-_BNYAS-VqcFwyltppQNslzH-xMeTQPIPgY6i1SeysTLsD6N2nIvVKSL21TKz7uwFA"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Pure Copra Oil</span>
+<span class="text-slate-500">Retail Pack</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Coconut Oil Pouch 50ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Handy pocket-sized pouch popular across local provision stores and travel kits.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">50 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Pouch 50ml', 'Pouch Pack', '50ml', 'Compact pouch for quick personal application or single meal recipe.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuB2rH0QXAMWETdzgLOMrp6hrktRm_eh874N5EBIDpxDgWM8etGWwndVHzN1pSDWybrEzpq5ORn9d834yhYjlc6YWT28Nn-1vwYVBpGMTDVHSnUmAl9n54cXxAMZDbK30c-WH_x6bvB_eC5_7iOV3SsppkJTqdzn7Souge2szhIiVq17Q6F439SvQaBUL6-aSosD-_BNYAS-VqcFwyltppQNslzH-xMeTQPIPgY6i1SeysTLsD6N2nIvVKSL21TKz7uwFA')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Coconut Oil Pouch 50ml')">Enquire</a>
+</div>
+</div>
+<!-- 5. Sachet 5ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="pouch">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Sachet 5ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1RdCF_7iS9m397lhvCx5VGnX3VYyF1eZ5dP48WSo8ZDw3UnXVf-SiRAyqkUSS-PQnhDJeHT8zgc2KRFTUX4hshNXlq-dpnS3CCqgCegYlJMosx_A_et5L1yUzFc7Vu2xOJ9G83WC2N_MyfTmFu0z-FxNStb_53tgvlL9NgQuPMLkydIm0cB3iQj2pIAnrc4ylenX_NOuAD-SdXZ-WdFjADZOg7ZhHl4VsxZjEdhP7HXSS6jBIC3lr9uESLPJ7zHbW_A"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Pure Copra Oil</span>
+<span class="text-slate-500">Single Use Sachet</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Coconut Oil Sachet 5ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Ultra-portable single application sachet for hair and skincare on-the-go.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">5 ml Sachet</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Sachet 5ml', 'Single Use Sachet', '5ml', 'Tear-and-use fresh single dose pure coconut oil.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuD1RdCF_7iS9m397lhvCx5VGnX3VYyF1eZ5dP48WSo8ZDw3UnXVf-SiRAyqkUSS-PQnhDJeHT8zgc2KRFTUX4hshNXlq-dpnS3CCqgCegYlJMosx_A_et5L1yUzFc7Vu2xOJ9G83WC2N_MyfTmFu0z-FxNStb_53tgvlL9NgQuPMLkydIm0cB3iQj2pIAnrc4ylenX_NOuAD-SdXZ-WdFjADZOg7ZhHl4VsxZjEdhP7HXSS6jBIC3lr9uESLPJ7zHbW_A')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Coconut Oil Sachet 5ml')">Enquire</a>
+</div>
+</div>
+<!-- 6. Bottle 1 Litre -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="bottle">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Bottle 1 Litre" class="h-full w-auto object-contain product-shadow-deep" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ7ytxW77zjCG1KUfLlbB7XB9hQAnArAH49uSOi6kcDGDULdGW4PlH_0LLGzUgU4dpRt0L7uzK97kojtjlqf7wBqL4HEVewHepztEDU-XTMHWb3KTS2DUZRmRePmh8IiIFKN3Rk94P9bfAliEw_Efn52PN2LV6yJ7WnRXGydCmysN_LLHI8lkzcMNhjuFzembNjFTDqIybzc793GliQ4ha9TYX7ZILt5deor6D6LSZj8_a32SxOezUcno2BghNNh-fog"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Food Grade PET</span>
+<span class="text-slate-500">Flip-Top Bottle</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Pure Coconut Oil Bottle 1 Litre</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Flagship 1L transparent bottle with leak-proof flip cap for seamless kitchen storage.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">1 Litre Bottle</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Bottle 1 Litre', 'PET Bottle', '1 Litre', 'Crystal clear cold-pressed oil with precision pouring flip-top cap.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuBQ7ytxW77zjCG1KUfLlbB7XB9hQAnArAH49uSOi6kcDGDULdGW4PlH_0LLGzUgU4dpRt0L7uzK97kojtjlqf7wBqL4HEVewHepztEDU-XTMHWb3KTS2DUZRmRePmh8IiIFKN3Rk94P9bfAliEw_Efn52PN2LV6yJ7WnRXGydCmysN_LLHI8lkzcMNhjuFzembNjFTDqIybzc793GliQ4ha9TYX7ZILt5deor6D6LSZj8_a32SxOezUcno2BghNNh-fog')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Pure Coconut Oil Bottle 1 Litre')">Enquire</a>
+</div>
+</div>
+<!-- 7. Bottle 500ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="bottle">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Bottle 500ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqyyAiwRNFUgrSachu4wak-YYdAIBVnMnxhkzkecNgJKpDNy5nsKCFi1d68zGth4Uuq8qJXVR86A2FbjmF1OP-iaoydHdddyW_76kdy7ptCLKjaTeRF0sS4Z-cSBrrht96B2rZLbn-TefiqDuy-EPU4_oLizM_K_FYABXK1F0VNKxhmB12ga1EBN4_68IscqYZTIkmtD0ZzGGbS3YBFEK_h7BxSpKyK8WJx6HVYlV4gDAXjI04umWJCqf3_Fm9huE8aA"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Food Grade PET</span>
+<span class="text-slate-500">Flip-Top Bottle</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Pure Coconut Oil Bottle 500ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Mid-size ergonomic bottle favored for hair oiling, skin massage, and dressing.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">500 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Bottle 500ml', 'PET Bottle', '500ml', '100% natural copra oil packaged hygienically without additives.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAqyyAiwRNFUgrSachu4wak-YYdAIBVnMnxhkzkecNgJKpDNy5nsKCFi1d68zGth4Uuq8qJXVR86A2FbjmF1OP-iaoydHdddyW_76kdy7ptCLKjaTeRF0sS4Z-cSBrrht96B2rZLbn-TefiqDuy-EPU4_oLizM_K_FYABXK1F0VNKxhmB12ga1EBN4_68IscqYZTIkmtD0ZzGGbS3YBFEK_h7BxSpKyK8WJx6HVYlV4gDAXjI04umWJCqf3_Fm9huE8aA')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Pure Coconut Oil Bottle 500ml')">Enquire</a>
+</div>
+</div>
+<!-- 8. Bottle 200ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="bottle">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Bottle 200ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWgItFSzv1RTfJFiEcLKRhBs98W4nb3a9x_qm1B4rJS98SDphhAPrQRZSpgQM1JY6Smr6oEuDOyqVcME3GkiJnRmDaAL8HIfTO7XCEVV_PtJVfbC1OCTMwGzTVYifPtbkVGnEMzK46GphAsts1ObUjY1yKwsu5Pf9XcxD9SDd6ldm99cRWTp7ROdRd5kM6eLK6lHORdveW2GXsBtQX83zG7eJolzobpSJVn926KvL2FYtsZt4ifJXldXlkxZv2lyfYLA"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Food Grade PET</span>
+<span class="text-slate-500">Retail Bottle</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Pure Coconut Oil Bottle 200ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Popular household dressing table size for personal grooming and infant massage.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">200 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Bottle 200ml', 'PET Bottle', '200ml', 'Pure natural edible coconut oil for holistic hair care and skin softness.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuBWgItFSzv1RTfJFiEcLKRhBs98W4nb3a9x_qm1B4rJS98SDphhAPrQRZSpgQM1JY6Smr6oEuDOyqVcME3GkiJnRmDaAL8HIfTO7XCEVV_PtJVfbC1OCTMwGzTVYifPtbkVGnEMzK46GphAsts1ObUjY1yKwsu5Pf9XcxD9SDd6ldm99cRWTp7ROdRd5kM6eLK6lHORdveW2GXsBtQX83zG7eJolzobpSJVn926KvL2FYtsZt4ifJXldXlkxZv2lyfYLA')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Pure Coconut Oil Bottle 200ml')">Enquire</a>
+</div>
+</div>
+<!-- 9. Bottle 100ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="bottle">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Bottle 100ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaw6oYwSzG-4McEB_AHw0Y8dIHOZrPCFww0Hu0zBwKQ-HI2QrolMURibjB69CdM5TDjVgwLQgsrnZQZC11b3mKdv4aPmj7oZvp3_wPyVeR6KcHWqm6Q8qc-MrGbHJ08HyEiqJDWPFo6RkGoQtS4M-WMRWgfrnurbQDlnYXniouhDafgp_1aTFmPT6TQIaLmbQ_KST8LrcjPizeJ7bSgpizLme_JcM9aHuimGCkUueImGdzcQ_dmBYiB9uihJpTOnHXEg"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Food Grade PET</span>
+<span class="text-slate-500">Retail Bottle</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Pure Coconut Oil Bottle 100ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Compact travel bottle with tamper-evident seal and clean blue flip cap.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">100 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Bottle 100ml', 'PET Bottle', '100ml', 'Compact 100ml bottle with controlled dispensing flip-cap.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuDaw6oYwSzG-4McEB_AHw0Y8dIHOZrPCFww0Hu0zBwKQ-HI2QrolMURibjB69CdM5TDjVgwLQgsrnZQZC11b3mKdv4aPmj7oZvp3_wPyVeR6KcHWqm6Q8qc-MrGbHJ08HyEiqJDWPFo6RkGoQtS4M-WMRWgfrnurbQDlnYXniouhDafgp_1aTFmPT6TQIaLmbQ_KST8LrcjPizeJ7bSgpizLme_JcM9aHuimGCkUueImGdzcQ_dmBYiB9uihJpTOnHXEg')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Pure Coconut Oil Bottle 100ml')">Enquire</a>
+</div>
+</div>
+<!-- 10. Bottle 50ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="bottle">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya D'Lite Pure Coconut Oil Bottle 50ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAD40LXqmoIb3pKu03ueW6Xre4Bc7j64dIrThw75wOSTMpeP_AasnOMkchNNs67f3Bk994iw-bAFCcKzx4kSX2yMNfgdRbM5VHgRtVg7NO8F5RuB4XFSjQU1Ki0dJEjxM5J9EycqwCbgndY3ONnIe0ZQahtQJ4vdxzh4w0mU-ZrpYA9Ubvp1DxtnYp1mkFoAI6wAyozGWyLcpPprFpQxuMIb4FNmtlF8LLdLALIEVbBBo-xom6fvpboL-tMeY0sMy_a1w"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>Food Grade PET</span>
+<span class="text-slate-500">Mini Bottle</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya D'Lite Pure Coconut Oil Bottle 50ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Pocket companion bottle preserving virgin freshness for dry skin and quick hair touches.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">50 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya D\'Lite Pure Coconut Oil Bottle 50ml', 'PET Bottle', '50ml', 'Pocket friendly 50ml bottle for travel and individual use.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAD40LXqmoIb3pKu03ueW6Xre4Bc7j64dIrThw75wOSTMpeP_AasnOMkchNNs67f3Bk994iw-bAFCcKzx4kSX2yMNfgdRbM5VHgRtVg7NO8F5RuB4XFSjQU1Ki0dJEjxM5J9EycqwCbgndY3ONnIe0ZQahtQJ4vdxzh4w0mU-ZrpYA9Ubvp1DxtnYp1mkFoAI6wAyozGWyLcpPprFpQxuMIb4FNmtlF8LLdLALIEVbBBo-xom6fvpboL-tMeY0sMy_a1w')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Satya D\'Lite Pure Coconut Oil Bottle 50ml')">Enquire</a>
+</div>
+</div>
+<!-- 11. Sathyam Deepam Oil 1 Litre -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="deepam">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Sathyam Pancha Deepam Pooja Oil 1 Litre" class="h-full w-auto object-contain product-shadow-deep" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYw5S_35Lf3wd_MBNzlEylhOBdoBYhU4m4lWxg6dZ-VtY5ym_F7lRpWKio7TDuAgl8GfSXqTvVV5-bgRcfIdX2oGsBYSk1p727jTGYrVqeJfzR5_EZ_jdLfYeIUXfcv8CQ9mibunrrfZ357m9vmQPsla83ZDIJNnfimPZhQUz4hQ51yVyzQB5BgrrL6XQaYwR68aQcPJuUXANHpkekFxkCxXD9fF0tDrSLy_ycW-4TQt78DRpwURB4mALGu4dnsvhD9A"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-amber-700 mb-1">
+<span>பஞ்ச தீப எண்ணெய்</span>
+<span class="text-slate-500">Temple &amp; Home</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Sathyam Pancha Deepam Pooja Oil 1 Litre</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Sacred prayer lamp formulation ensuring steady, smokeless devotional illumination.</p>
+<div class="mt-3">
+<span class="inline-block bg-amber-50 text-amber-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-amber-200">1 Litre Bottle</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Sathyam Pancha Deepam Pooja Oil 1 Litre', 'Pooja Oil', '1 Litre', 'Specially blended devotional oil providing long-lasting, soot-free flame.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCYw5S_35Lf3wd_MBNzlEylhOBdoBYhU4m4lWxg6dZ-VtY5ym_F7lRpWKio7TDuAgl8GfSXqTvVV5-bgRcfIdX2oGsBYSk1p727jTGYrVqeJfzR5_EZ_jdLfYeIUXfcv8CQ9mibunrrfZ357m9vmQPsla83ZDIJNnfimPZhQUz4hQ51yVyzQB5BgrrL6XQaYwR68aQcPJuUXANHpkekFxkCxXD9fF0tDrSLy_ycW-4TQt78DRpwURB4mALGu4dnsvhD9A')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Sathyam Pancha Deepam Pooja Oil 1 Litre')">Enquire</a>
+</div>
+</div>
+<!-- 12. Sathyam Deepam Oil 500ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="deepam">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Sathyam Pancha Deepam Pooja Oil 500ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWg1-9AlG9b0TonVl_FbKpaf_AwgC63bv4urVfOpcPjB6aMpiZsuLdH6UwSLNbIT6xn8N5xmdR1szo10ifjAmsBaE6w5UXdOZtkKvF8e5_1HswGKaPmCND1DAedllZHjOK52-wL4oPx8_-mRVu0zGmh1PNCocYwn3bbQxFdksV6J5Xk4RKAaZ_HrKExQS_tZVF_vWjBeyZRBNc-dWTBBlco-niRHlrf2ZaFRJ49DzRMPZ4Bv1c5_ZZpuYdVt_HE1pVrw"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-amber-700 mb-1">
+<span>பஞ்ச தீப எண்ணெய்</span>
+<span class="text-slate-500">Daily Puja</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Sathyam Pancha Deepam Pooja Oil 500ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Traditional altar size for daily Vilakku lighting and sacred festive occasions.</p>
+<div class="mt-3">
+<span class="inline-block bg-amber-50 text-amber-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-amber-200">500 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Sathyam Pancha Deepam Pooja Oil 500ml', 'Pooja Oil', '500ml', 'Carefully blended auspicious oils for sacred home and temple lamps.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuDWg1-9AlG9b0TonVl_FbKpaf_AwgC63bv4urVfOpcPjB6aMpiZsuLdH6UwSLNbIT6xn8N5xmdR1szo10ifjAmsBaE6w5UXdOZtkKvF8e5_1HswGKaPmCND1DAedllZHjOK52-wL4oPx8_-mRVu0zGmh1PNCocYwn3bbQxFdksV6J5Xk4RKAaZ_HrKExQS_tZVF_vWjBeyZRBNc-dWTBBlco-niRHlrf2ZaFRJ49DzRMPZ4Bv1c5_ZZpuYdVt_HE1pVrw')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Sathyam Pancha Deepam Pooja Oil 500ml')">Enquire</a>
+</div>
+</div>
+<!-- 13. Sathyam Deepam Oil 200ml -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="deepam">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Sathyam Pancha Deepam Pooja Oil 200ml" class="h-full w-auto object-contain product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuByWz_slIq_jGYK4vlHhO9QSRToknINKUDCqQivga6wlUzavjlVgKCy6lb9CKpF8BvlNWz0c0rjk409pzPmesFzvPgfVFX_b44lNGlVxwZaIh640161cabMqHnmB1b8_AnzpFJKKRzgL-XEkZO9EJNnEZkdCjGBC4TBMVOpEzD0Ih-0NBSHAYI69FSScqxC676jkD3MldKGDzZt7rXM6KBN_xh5aN8YcoyxvaRosSYceZElqOw5WNQTSdf9hLNdmzOb-w"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-amber-700 mb-1">
+<span>பஞ்ச தீப எண்ணெய்</span>
+<span class="text-slate-500">Compact Puja</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Sathyam Pancha Deepam Pooja Oil 200ml</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Handy prayer room bottle with clean pouring cap for simple daily rituals.</p>
+<div class="mt-3">
+<span class="inline-block bg-amber-50 text-amber-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-amber-200">200 ml</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Sathyam Pancha Deepam Pooja Oil 200ml', 'Pooja Oil', '200ml', 'Easy-to-handle bottle designed for daily altar lamp refilling.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuByWz_slIq_jGYK4vlHhO9QSRToknINKUDCqQivga6wlUzavjlVgKCy6lb9CKpF8BvlNWz0c0rjk409pzPmesFzvPgfVFX_b44lNGlVxwZaIh640161cabMqHnmB1b8_AnzpFJKKRzgL-XEkZO9EJNnEZkdCjGBC4TBMVOpEzD0Ih-0NBSHAYI69FSScqxC676jkD3MldKGDzZt7rXM6KBN_xh5aN8YcoyxvaRosSYceZElqOw5WNQTSdf9hLNdmzOb-w')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#contact" onclick="setEnquiryProduct('Sathyam Pancha Deepam Pooja Oil 200ml')">Enquire</a>
+</div>
+</div>
+<!-- 14. Satya Delux 15kg Pure Coconut Oil Commercial Square Tin -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="tin">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya Delux 15kg Pure Coconut Oil Commercial Square Tin" class="h-full w-auto object-contain rounded product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJUsotMtz_Z-dHWko5hJIR7NEQ9NJeyMZdDCovVyobr4b1PpKYk7pOKPTw-mzB6TbqC8KagBblL_wrFov8ygGnjiY4Ali0Ah9Ae7bHVtmSJdWsmPC7GxDhE5l6eKQAmd9mKFZN8HzChXJhIBtfCMHHG1kTeAqfdisOQVb6hLKzDard6L1iCQ30UAiHeurOWRRdmjYENpbHCLoGVYhr30nPyfbq_NzXq_WWtKTax3lOmfsxy4wIwqRozusIwlRoRNIqAg"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>15 Kgs Nett Standard</span>
+<span class="text-slate-500">Commercial B2B</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya Delux 15kg Commercial Tin</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Heavy-duty square steel canister with iconic Lord Murugan label for sweet makers, caterers, and wholesalers.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">15 Kgs Nett Square Tin</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya Delux 15kg Commercial Tin', 'Commercial Tin', '15 Kgs Nett Square Steel Canister', 'Pure &amp; Natural Coconut Oil milled and packed by Dayan Enterprises &amp; Co, West Thoothukudi.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuDJUsotMtz_Z-dHWko5hJIR7NEQ9NJeyMZdDCovVyobr4b1PpKYk7pOKPTw-mzB6TbqC8KagBblL_wrFov8ygGnjiY4Ali0Ah9Ae7bHVtmSJdWsmPC7GxDhE5l6eKQAmd9mKFZN8HzChXJhIBtfCMHHG1kTeAqfdisOQVb6hLKzDard6L1iCQ30UAiHeurOWRRdmjYENpbHCLoGVYhr30nPyfbq_NzXq_WWtKTax3lOmfsxy4wIwqRozusIwlRoRNIqAg')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#bulk" onclick="setEnquiryProduct('Satya Delux 15kg Commercial Tin')">Bulk Quote</a>
+</div>
+</div>
+<!-- 15. Satya Delux Nayam 15kg Coconut Oil Commercial Square Tin -->
+<div class="catalog-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between hover:border-slate-400 hover:shadow-card transition-all" data-category="tin">
+<div>
+<div class="h-56 w-full flex items-center justify-center p-4 bg-slate-50/70 rounded-lg mb-4">
+<img alt="Satya Delux Nayam 15kg Commercial Square Tin" class="h-full w-auto object-contain rounded product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa1N1pp8F2bswjwsd9AhKhoL0ZwrgUjTtgr6E4CLuHSxpr__54idt5_2Il6brjEAyzYZ7RgOrRhGKXKjCCnuxfONNRkeledbyxA3jb_NEIX4CNS3HFLlMSpBph1fLhU4qF5MLukuJ7feON0xGt0JiExUjVLOvN-olL5vzmHOxk2yT2UPkP737Ql49PNtqPmDLbajzDI1CHG3fJEyrgEBSBWFkI0Gx0x4oUUJFOy_66pMTxACb5WSho0fT8OXWW-pT9qg"/>
+</div>
+<div class="flex items-center justify-between text-[11px] font-semibold text-brandBlue mb-1">
+<span>சத்யா டிலக்ஸ் நயம்</span>
+<span class="text-slate-500">Mill-Grade B2B</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 leading-snug">Satya Delux Nayam 15kg Bulk Tin</h3>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">Authentic traditional green-label commercial canister for food processing units, bakeries, and regional stockists.</p>
+<div class="mt-3">
+<span class="inline-block bg-slate-100 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded border border-slate-200">15 Kgs Nett Square Tin</span>
+</div>
+</div>
+<div class="mt-5 pt-3 border-t border-slate-100 flex items-center gap-2">
+<button class="w-1/2 py-2 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors" onclick="openDetails('Satya Delux Nayam 15kg Bulk Tin', 'Mill-Grade Bulk Tin', '15 Kgs Nett (Green Label)', 'Dayan Enterprises &amp; Co, 4/95 Ettayapuram Road, Thoothukudi. FSSAI certified mill batch.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCa1N1pp8F2bswjwsd9AhKhoL0ZwrgUjTtgr6E4CLuHSxpr__54idt5_2Il6brjEAyzYZ7RgOrRhGKXKjCCnuxfONNRkeledbyxA3jb_NEIX4CNS3HFLlMSpBph1fLhU4qF5MLukuJ7feON0xGt0JiExUjVLOvN-olL5vzmHOxk2yT2UPkP737Ql49PNtqPmDLbajzDI1CHG3fJEyrgEBSBWFkI0Gx0x4oUUJFOy_66pMTxACb5WSho0fT8OXWW-pT9qg')">Details</button>
+<a class="w-1/2 py-2 text-center text-xs font-semibold rounded bg-brandBlue hover:bg-brandBlue-700 text-white transition-colors" href="#bulk" onclick="setEnquiryProduct('Satya Delux Nayam 15kg Bulk Tin')">Bulk Quote</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 5. PRODUCT DETAILS MODAL ==================== -->
+<div aria-modal="true" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4" id="product-modal" role="dialog">
+<div class="relative bg-white border border-slate-200 rounded-2xl max-w-xl w-full p-6 sm:p-8 shadow-2xl transition-all">
+<button aria-label="Close dialog" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 p-2 rounded-lg bg-slate-100" onclick="closeDetails()">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
+<div class="rounded-xl overflow-hidden bg-slate-50 border border-slate-100 aspect-square flex items-center justify-center p-4">
+<img alt="Product Preview" class="h-full w-auto object-contain product-shadow" id="modal-img" src=""/>
+</div>
+<div class="space-y-3 text-left">
+<span class="inline-block px-2.5 py-0.5 bg-slate-100 text-brandBlue text-[11px] font-bold rounded uppercase tracking-wider" id="modal-badge">Category</span>
+<h3 class="text-xl font-bold text-slate-900 leading-snug" id="modal-title">Product Title</h3>
+<div class="space-y-2 text-xs text-slate-600 border-t border-b border-slate-200 py-3">
+<p><strong>Pack Specification:</strong> <span id="modal-sizes"></span></p>
+<p><strong>Packaging Standard:</strong> <span id="modal-notes"></span></p>
+<p><strong>Manufacturer:</strong> Dayan Enterprises &amp; Co., West Thoothukudi</p>
+<p><strong>FSSAI Registration:</strong> 12418029000057</p>
+</div>
+<div class="pt-2">
+<a class="block w-full text-center py-2.5 bg-brandBlue hover:bg-brandBlue-700 text-white text-xs uppercase tracking-wider font-semibold rounded-lg transition-colors" href="#contact" id="modal-cta-btn" onclick="closeDetails()">
+              Enquire For This Product
+            </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ==================== 6. BENEFITS SECTION ==================== -->
+<section class="py-16 md:py-24 bg-surfaceSlate border-b border-slate-200/80" id="benefits">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-12">
+<span class="text-xs font-bold uppercase tracking-widest text-brandBlue">Strict Quality Assurances</span>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1 tracking-tight">Genuine Product Merits</h2>
+<p class="text-sm text-slate-600 mt-2">Every drop is verified by continuous physical inspection, authentic copra extraction, and tamper-resistant sealing.</p>
+</div>
+<!-- 4 Clear Factual Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="p-6 bg-white rounded-xl border border-slate-200 shadow-xs flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center text-brandBlue font-bold text-sm mb-4">
+              01
+            </div>
+<h3 class="text-base font-bold text-slate-900">Unadulterated Cold-Pressed Copra</h3>
+<p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Expeller pressed strictly from clean, sun-dried copra. Zero chemical refining, no mineral oil blending, and no artificial aromatic boosters.
+            </p>
+</div>
+<span class="mt-4 text-[11px] font-semibold text-brandBlue">100% Pure Cooking &amp; Hair Care</span>
+</div>
+<div class="p-6 bg-white rounded-xl border border-slate-200 shadow-xs flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center text-brandBlue font-bold text-sm mb-4">
+              02
+            </div>
+<h3 class="text-base font-bold text-slate-900">Multi-Layer Barrier Packaging</h3>
+<p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Food-grade PET bottles, tamper-evident neck bands, and UV-barrier multi-layered pouches protecting delicate fatty acids and natural coconut sweetness.
+            </p>
+</div>
+<span class="mt-4 text-[11px] font-semibold text-brandBlue">Aroma &amp; Freshness Preserved</span>
+</div>
+<div class="p-6 bg-white rounded-xl border border-slate-200 shadow-xs flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center text-brandBlue font-bold text-sm mb-4">
+              03
+            </div>
+<h3 class="text-base font-bold text-slate-900">Sacred Devotional Flame</h3>
+<p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Sathyam Deepam oil is formulated in honoring sacred tradition: burns with a bright, steady, non-smoking flame that keeps sanctums serene.
+            </p>
+</div>
+<span class="mt-4 text-[11px] font-semibold text-brandBlue">Soot-Free Pancha Deepam Blend</span>
+</div>
+<div class="p-6 bg-white rounded-xl border border-slate-200 shadow-xs flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center text-brandBlue font-bold text-sm mb-4">
+              04
+            </div>
+<h3 class="text-base font-bold text-slate-900">Standardized 15kg Tin Packaging</h3>
+<p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Industrial square tin canisters with leak-proof screw cap seals, batch certification, and precise 15 Kgs Nett net content for commercial kitchens.
+            </p>
+</div>
+<span class="mt-4 text-[11px] font-semibold text-brandBlue">Commercial B2B Standard</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 7. OUR TRADITION SECTION ==================== -->
+<section class="py-20 bg-slate-900 text-white" id="tradition">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-12">
+<span class="text-xs font-bold uppercase tracking-widest text-slate-400">Devotional Heritage &amp; Home Harmony</span>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-white mt-2 tracking-tight">Lighting Up Homes, Nurturing Lives</h2>
+<p class="font-tamil text-amber-300 text-base mt-3">
+          "தீபம் ஜோதி பரப்பிரம்மம் — மங்கல வாழ்வு தரும் சத்யம் பஞ்ச தீப எண்ணெய்"
+        </p>
+<p class="text-xs sm:text-sm text-slate-300 mt-3 max-w-xl mx-auto leading-relaxed">
+          In South Indian tradition, lighting the Kuthu Vilakku invokes calmness, positive auspicious energy, and spiritual focus. Sathyam Pancha Deepam oil is crafted with reverence for sanctified lamps.
+        </p>
+</div>
+<!-- Integrated Video Presentation Placeholder Frame -->
+<div class="max-w-4xl mx-auto rounded-2xl overflow-hidden border border-slate-700 bg-slate-800 shadow-studio relative group">
+<div class="relative h-[320px] sm:h-[420px] overflow-hidden">
+<img alt="Sathyam Deepam Oil Devotional Lighting" class="w-full h-full object-cover opacity-60 group-hover:scale-102 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYw5S_35Lf3wd_MBNzlEylhOBdoBYhU4m4lWxg6dZ-VtY5ym_F7lRpWKio7TDuAgl8GfSXqTvVV5-bgRcfIdX2oGsBYSk1p727jTGYrVqeJfzR5_EZ_jdLfYeIUXfcv8CQ9mibunrrfZ357m9vmQPsla83ZDIJNnfimPZhQUz4hQ51yVyzQB5BgrrL6XQaYwR68aQcPJuUXANHpkekFxkCxXD9fF0tDrSLy_ycW-4TQt78DRpwURB4mALGu4dnsvhD9A"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent flex flex-col items-center justify-center p-6 text-center">
+<!-- Play Button Overlay -->
+<div class="w-16 h-16 rounded-full bg-brandBlue text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform mb-4">
+<svg class="w-7 h-7 ml-1" fill="currentColor" viewbox="0 0 24 24">
+<path d="M8 5v14l11-7z"></path>
+</svg>
+</div>
+<span class="inline-block px-3 py-1 rounded bg-slate-800 border border-slate-600 text-slate-300 text-xs font-semibold uppercase tracking-wider mb-2">
+              Brand Story Presentation
+            </span>
+<p class="text-lg sm:text-xl font-bold text-white tracking-wide">
+              Dayan Enterprises Heritage &amp; Milling Process Film
+            </p>
+<p class="text-xs text-slate-400 mt-1.5 max-w-md">
+              Documenting copra inspection, cold extraction, hygienic bottling, and sacred diya lamp traditions in Thoothukudi.
+            </p>
+</div>
+</div>
+</div>
+<!-- 3 Devotional Tradition Highlights -->
+<div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-5 max-w-4xl mx-auto text-center">
+<div class="border border-slate-800 bg-slate-800/60 rounded-xl p-5">
+<p class="text-amber-400 font-bold text-sm uppercase tracking-wider">Pancha Deepa Formulation</p>
+<p class="text-xs text-slate-300 mt-1.5">Carefully prepared oil formulation honoring traditional temple rituals and auspicious daily worship.</p>
+</div>
+<div class="border border-slate-800 bg-slate-800/60 rounded-xl p-5">
+<p class="text-amber-400 font-bold text-sm uppercase tracking-wider">Steady Radiant Flame</p>
+<p class="text-xs text-slate-300 mt-1.5">Refined to sustain an even wick burn with minimal smoke, keeping sacred home altars clean.</p>
+</div>
+<div class="border border-slate-800 bg-slate-800/60 rounded-xl p-5">
+<p class="text-amber-400 font-bold text-sm uppercase tracking-wider">Temple Trust Supplies</p>
+<p class="text-xs text-slate-300 mt-1.5">Supplied directly for domestic puja mandirs, temple trust donations, and festive deepotsavam celebrations.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 8. COMMERCIAL BULK ORDERS & WHOLESALE (B2B) ==================== -->
+<section class="py-16 md:py-24 bg-white border-b border-slate-200/80" id="bulk">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="bg-surfaceSlate rounded-2xl p-8 sm:p-12 lg:p-14 border border-slate-200 shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Side-by-Side Showcase of both 15kg Tins -->
+<div class="lg:col-span-6">
+<div class="bg-white rounded-xl border border-slate-200 p-6 shadow-xs">
+<div class="grid grid-cols-2 gap-4 items-center">
+<!-- Tin 1: Satya Delux (Lord Murugan artwork) -->
+<div class="flex flex-col items-center text-center">
+<div class="h-48 sm:h-56 w-full flex items-center justify-center p-2 bg-slate-50 rounded-lg">
+<img alt="Satya Delux 15kg Commercial Tin" class="h-full w-auto object-contain rounded product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaCNWgUIGyXsJI3jW4e-zTyZQamboR6UJnOCuZ0OgR64sr2zmlgIQnvfIlxjxOXYvD1GiBDA3Xh83mNLJhi9pXF89571dA5qqyR1KQ3_YFjhqpzi4st4beq2mQYfDfK3CKHEnP_ZajSVnNiMAS_LuPsDrZ1vSxtlbmhN0jAURxi1UccWDjtn7Xv_-4qA1bqXmdvJl48LgrHaeyajJLi7-OubD3XlrNGDLIdXW5R7TIHw-BDS6FS8Bw72ggpmf_lyta0A"/>
+</div>
+<span class="mt-2.5 text-[11px] font-bold text-slate-900">Satya Delux 15kg</span>
+<span class="text-[10px] text-slate-500">Lord Murugan Label</span>
+</div>
+<!-- Tin 2: Satya Delux Nayam (Green label) -->
+<div class="flex flex-col items-center text-center">
+<div class="h-48 sm:h-56 w-full flex items-center justify-center p-2 bg-slate-50 rounded-lg">
+<img alt="Satya Delux Nayam 15kg Commercial Tin" class="h-full w-auto object-contain rounded product-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChAw-WJiBpEqaDw5jgWs5T8StoeOdmUfMdlijwnGslgS9WORXC3K6y2CNhJwqFsggf8eOy-CyhviZZbupELy1dI5CQ3X4u1HpUjnbt_XU_-OnHGbCCHi1IPMMiMrHZXwCbasoEP8qr98Nvq7N34DFaWG85v41ePaV5LXB7Fbuc41lYqz4-vPHHbviqb9fo-LfmCzHK4VbvjtoRWswwkUWUnmvoW6hQ9cDX9gGnvhmDUCdLLBHLmi7X0P9su11cIzp09g"/>
+</div>
+<span class="mt-2.5 text-[11px] font-bold text-slate-900">Satya Delux Nayam</span>
+<span class="text-[10px] text-slate-500 font-tamil">சத்யா டிலக்ஸ் நயம்</span>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-slate-100 text-center text-xs text-slate-600 font-medium">
+                Dayan Enterprises &amp; Co. • 15 Kgs Nett Sealed Commercial Square Canisters
+              </div>
+</div>
+</div>
+<!-- Wholesale Proposition Content -->
+<div class="lg:col-span-6 space-y-6">
+<div>
+<span class="inline-block px-2.5 py-0.5 rounded bg-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider">
+                Commercial Bulk Supply
+              </span>
+<h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+                Commercial 15kg Tins for Bakeries, Sweet Makers &amp; Wholesalers
+              </h2>
+<p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Dayan Enterprises &amp; Co. delivers dependable, directly dispatched 15 Kgs Nett commercial square tin canisters for institutional kitchens, traditional confectioners, and regional edible oil stockists.
+              </p>
+</div>
+<!-- Bullet Points -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs font-medium text-slate-700">
+<div class="flex items-center space-x-2">
+<span class="text-brandBlue font-bold">✓</span>
+<span>Direct Manufacturer Dispatch</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="text-brandBlue font-bold">✓</span>
+<span>15 Kgs Nett Heavy Square Steel Tin</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="text-brandBlue font-bold">✓</span>
+<span>Batch Coded &amp; FSSAI Lic. 12418029000057</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="text-brandBlue font-bold">✓</span>
+<span>Wholesale GST Invoicing &amp; Quotations</span>
+</div>
+</div>
+<!-- B2B Actions -->
+<div class="pt-2 flex flex-col sm:flex-row gap-3">
+<a class="inline-flex justify-center items-center px-6 py-3 text-xs uppercase tracking-wider font-semibold rounded-lg bg-brandBlue text-white hover:bg-brandBlue-700 transition-colors shadow-xs" href="#contact" onclick="setEnquiryProduct('Commercial 15kg Tin Bulk Supply')">
+                Request Bulk Quotation
+              </a>
+<a class="inline-flex justify-center items-center px-6 py-3 text-xs uppercase tracking-wider font-semibold rounded-lg bg-white border border-slate-300 text-slate-800 hover:bg-slate-50 transition-colors" href="tel:04612346947">
+                Call Mill Desk: 0461-2346947
+              </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 9. CONTACT SECTION & COMMERCIAL ENQUIRY ==================== -->
+<section class="py-16 md:py-24 bg-white" id="contact">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="text-xs font-bold uppercase tracking-widest text-brandBlue">Direct Channel Desk</span>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1 tracking-tight">Contact Dayan Enterprises &amp; Co.</h2>
+<p class="text-sm text-slate-600 mt-2">Connect with our team for retail inquiries, regional dealership distribution, or commercial 15kg bulk shipments.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+<!-- Left: Verified Contact Information -->
+<div class="lg:col-span-5 space-y-6">
+<div class="bg-surfaceSlate rounded-xl p-6 sm:p-8 border border-slate-200 space-y-5">
+<h3 class="text-lg font-bold text-slate-900">Direct Office Contacts</h3>
+<!-- Landline -->
+<div class="flex items-start space-x-3.5">
+<div class="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-brandBlue flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<p class="text-xs font-bold uppercase tracking-wider text-slate-500">Mill Office &amp; Landline</p>
+<p class="text-sm font-bold text-slate-900 mt-0.5">0461-2346947</p>
+<p class="text-xs text-slate-500">Mon–Sat, 9:00 AM – 6:30 PM IST</p>
+</div>
+</div>
+<!-- WhatsApp / Cell -->
+<div class="flex items-start space-x-3.5">
+<div class="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-brandBlue flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"></path></svg>
+</div>
+<div>
+<p class="text-xs font-bold uppercase tracking-wider text-slate-500">Mobile &amp; WhatsApp</p>
+<p class="text-sm font-bold text-slate-900 mt-0.5">+91 94422 06797</p>
+<p class="text-xs text-slate-500">Direct Commercial &amp; Wholesale Support</p>
+</div>
+</div>
+<!-- Address -->
+<div class="flex items-start space-x-3.5 pt-3 border-t border-slate-200">
+<div class="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-brandBlue flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<p class="text-xs font-bold uppercase tracking-wider text-slate-500">Manufacturing Works</p>
+<p class="text-xs sm:text-sm text-slate-800 font-medium leading-relaxed mt-0.5">
+<strong>Dayan Enterprises &amp; Co.</strong><br/>
+                  4/95, Ettayapuram Road, West Thoothukudi,<br/>
+                  Tamil Nadu, India — 628 002
+                </p>
+<p class="text-xs text-brandBlue font-semibold mt-1">FSSAI Lic. No. 12418029000057</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Structured Commercial Enquiry Form -->
+<div class="lg:col-span-7">
+<div class="bg-white rounded-xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+<h3 class="text-xl font-bold text-slate-900">Commercial &amp; Retail Enquiry</h3>
+<p class="text-xs text-slate-500 mt-1 mb-6">Submit your required quantity, packaging preferences, and destination city.</p>
+<form class="space-y-4" id="enquiry-form" onsubmit="submitEnquiry(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="user-name">Your Name *</label>
+<input class="w-full text-sm rounded-lg border-slate-300 bg-slate-50 focus:border-brandBlue focus:ring-brandBlue" id="user-name" placeholder="e.g. S. Ramanathan" required="" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="user-phone">Phone / WhatsApp *</label>
+<input class="w-full text-sm rounded-lg border-slate-300 bg-slate-50 focus:border-brandBlue focus:ring-brandBlue" id="user-phone" placeholder="+91 94422 06797" required="" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="user-email">Email Address</label>
+<input class="w-full text-sm rounded-lg border-slate-300 bg-slate-50 focus:border-brandBlue focus:ring-brandBlue" id="user-email" placeholder="name@business.com" type="email"/>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="interest-category">Category of Interest</label>
+<select class="w-full text-sm rounded-lg border-slate-300 bg-slate-50 focus:border-brandBlue focus:ring-brandBlue" id="interest-category">
+<option value="Packets Range">Packets (5ml to 1000ml)</option>
+<option value="Bottles Range">Bottles (50ml to 1 Litre)</option>
+<option value="Pooja Deepam Oil">Pooja Deepam Oil</option>
+<option value="15kg Bulk Tins">15kg Commercial Bulk Tins</option>
+<option value="Wholesale Dealership">Wholesale Dealership / Stockist</option>
+</select>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="specific-product">Specific Product</label>
+<select class="w-full text-sm rounded-lg border-slate-300 bg-slate-50 focus:border-brandBlue focus:ring-brandBlue" id="specific-product">
+<option value="All Product Lineup">All Product Lineup</option>
+<option value="Satya D'Lite Pure Coconut Oil Bottle 1 Litre">Satya D'Lite Bottle 1 Litre</option>
+<option value="Satya D'Lite Coconut Oil Pouch 1000ml">Satya D'Lite Pouch 1000ml</option>
+<option value="Sathyam Pancha Deepam Pooja Oil 1 Litre">Sathyam Pancha Deepam 1 Litre</option>
+<option value="Satya Delux 15kg Commercial Tin">Satya Delux 15kg Tin</option>
+<option value="Satya Delux Nayam 15kg Bulk Tin">Satya Delux Nayam 15kg Tin</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="user-message">Order Volume / Location Notes</label>
+<textarea class="w-full text-sm rounded-lg border-slate-300 bg-slate-50 focus:border-brandBlue focus:ring-brandBlue" id="user-message" placeholder="Specify desired quantity (cases, tins, pouches), city/district, or distribution region..." rows="3"></textarea>
+</div>
+<div>
+<button class="w-full py-3.5 px-6 rounded-lg bg-brandBlue hover:bg-brandBlue-700 text-white text-xs uppercase tracking-widest font-bold transition-colors shadow-xs" id="enquiry-submit-btn" type="submit">
+                  Submit Commercial Enquiry
+                </button>
+</div>
+<div class="hidden p-3.5 rounded-lg bg-slate-100 border border-slate-300 text-slate-800 text-xs font-semibold" id="form-feedback">
+                ✓ Thank you. Your inquiry has been logged. Dayan Enterprises &amp; Co. will reach out to you shortly.
+              </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 10. STRUCTURED FOOTER ==================== -->
+<footer class="bg-deepNavy text-slate-300 border-t border-slate-800" id="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+<!-- Logo & Brand Statement -->
+<div class="lg:col-span-2 space-y-4">
+<div class="bg-white inline-block p-2 rounded-lg">
+<img alt="Satya D'Lite Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPIBv_Dm6l3iiUW2nXV2-H-ZM-bWJwhts5ZaC_ktGIbEqQOLQIRxOn7HbXKUshLZubC6syi9fhECIwzBi2qXp2USsyD8ofEmgL_3pkNRes20_DVaq3O-yXqpiNw-zcBE4Ocd7g986V2ixGcQ_FbF3ipFr4_ZKNCgY7olFpAKtQetVfYN1YMAs_yCXKdmUmiZTlG-SEq2KrUUYSo3PEqYqD3dBpHLeHQBsRls4us8XjWZdoV-C4i22Xhtf-E2HAymUR3g"/>
+</div>
+<p class="text-xs text-slate-300 leading-relaxed max-w-sm">
+            Satya D'Lite cold-pressed coconut oils and Sathyam Pancha Deepam Pooja oils are manufactured with uncompromised traditional hygiene by Dayan Enterprises &amp; Co., West Thoothukudi.
+          </p>
+<p class="font-tamil text-slate-400 text-xs">
+            தூய மரபு, அன்றாட நலம் — சத்யா டி'லைட் தேங்காய் எண்ணெய்.
+          </p>
+</div>
+<!-- Navigation Links -->
+<div class="space-y-3">
+<h4 class="text-xs font-bold uppercase tracking-widest text-white">Navigation</h4>
+<ul class="space-y-2 text-xs text-slate-400">
+<li><a class="hover:text-white transition-colors" href="#home">Home</a></li>
+<li><a class="hover:text-white transition-colors" href="#about">About Us</a></li>
+<li><a class="hover:text-white transition-colors" href="#products">15 Products Range</a></li>
+<li><a class="hover:text-white transition-colors" href="#benefits">Quality Merits</a></li>
+<li><a class="hover:text-white transition-colors" href="#tradition">Our Tradition</a></li>
+<li><a class="hover:text-white transition-colors" href="#bulk">Commercial 15kg Tins</a></li>
+<li><a class="hover:text-white transition-colors" href="#contact">Contact Us</a></li>
+</ul>
+</div>
+<!-- Product Categories -->
+<div class="space-y-3">
+<h4 class="text-xs font-bold uppercase tracking-widest text-white">Product Categories</h4>
+<ul class="space-y-2 text-xs text-slate-400">
+<li><a class="hover:text-white transition-colors" href="#products" onclick="filterCategory('pouch')">Packets (5ml to 1000ml)</a></li>
+<li><a class="hover:text-white transition-colors" href="#products" onclick="filterCategory('bottle')">Bottles (50ml to 1L)</a></li>
+<li><a class="hover:text-white transition-colors" href="#products" onclick="filterCategory('deepam')">Sathyam Pancha Deepam Oil</a></li>
+<li><a class="hover:text-white transition-colors" href="#products" onclick="filterCategory('tin')">Satya Delux 15kg Murugan Tin</a></li>
+<li><a class="hover:text-white transition-colors" href="#products" onclick="filterCategory('tin')">Satya Delux Nayam 15kg Tin</a></li>
+</ul>
+</div>
+<!-- Manufacturer Address & FSSAI Info -->
+<div class="space-y-3">
+<h4 class="text-xs font-bold uppercase tracking-widest text-white">Manufacturer</h4>
+<p class="text-xs text-slate-400 leading-relaxed">
+<strong>Dayan Enterprises &amp; Co.</strong><br/>
+            4/95, Ettayapuram Road, West Thoothukudi - 628 002, Tamil Nadu, India.
+          </p>
+<div class="pt-2 text-[11px] text-slate-300 space-y-1">
+<p>Landline: 0461-2346947</p>
+<p>Mobile: +91 94422 06797</p>
+<p class="text-slate-400 font-mono">FSSAI: 12418029000057</p>
+</div>
+</div>
+</div>
+<!-- Legal Subfooter -->
+<div class="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400">
+<p>© 2025 Dayan Enterprises &amp; Co. / Satya D'Lite. All rights reserved.</p>
+<p class="mt-2 sm:mt-0 font-tamil text-slate-400">சத்யா டி'லைட் — பாரம்பரிய தூய்மை, அன்றாட நலம்</p>
+</div>
+</div>
+</footer>
+<!-- ==================== 11. INTERACTIVE LOGIC SCRIPTS ==================== -->
+<script>
+    // Mobile Menu Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+      document.querySelectorAll('#mobile-menu a').forEach(item => {
+        item.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+      });
+    }
+
+    // Product Category Filter Function
+    function filterCategory(category) {
+      const cards = document.querySelectorAll('.catalog-card');
+      const tabs = document.querySelectorAll('.filter-tab');
+
+      tabs.forEach(tab => {
+        if (tab.getAttribute('data-filter') === category) {
+          tab.classList.add('bg-brandBlue', 'text-white');
+          tab.classList.remove('bg-slate-100', 'text-slate-700');
+        } else {
+          tab.classList.remove('bg-brandBlue', 'text-white');
+          tab.classList.add('bg-slate-100', 'text-slate-700');
+        }
+      });
+
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Modal Operations
+    function openDetails(title, badge, sizes, notes, imgUrl) {
+      document.getElementById('modal-title').textContent = title;
+      document.getElementById('modal-badge').textContent = badge;
+      document.getElementById('modal-sizes').textContent = sizes;
+      document.getElementById('modal-notes').textContent = notes;
+      document.getElementById('modal-img').src = imgUrl;
+      document.getElementById('modal-img').alt = title;
+
+      document.getElementById('product-modal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeDetails() {
+      document.getElementById('product-modal').classList.add('hidden');
+      document.body.style.overflow = 'auto';
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeDetails();
+    });
+
+    // Prefill Contact Form Product Selection
+    function setEnquiryProduct(prodTitle) {
+      const select = document.getElementById('specific-product');
+      const catSelect = document.getElementById('interest-category');
+      
+      if (select) {
+        for (let i = 0; i < select.options.length; i++) {
+          if (prodTitle.includes(select.options[i].text) || select.options[i].text.includes(prodTitle)) {
+            select.selectedIndex = i;
+            break;
+          }
+        }
+      }
+
+      if (catSelect) {
+        if (prodTitle.includes('Tin') || prodTitle.includes('Commercial') || prodTitle.includes('Bulk')) {
+          catSelect.value = '15kg Bulk Tins';
+        } else if (prodTitle.includes('Bottle')) {
+          catSelect.value = 'Bottles Range';
+        } else if (prodTitle.includes('Pouch') || prodTitle.includes('Sachet')) {
+          catSelect.value = 'Packets Range';
+        } else if (prodTitle.includes('Deepam')) {
+          catSelect.value = 'Pooja Deepam Oil';
+        }
+      }
+    }
+
+    // Bilingual Toggle Switcher
+    function setLanguage(lang) {
+      const enBtn = document.getElementById('lang-btn-en');
+      const taBtn = document.getElementById('lang-btn-ta');
+
+      if (lang === 'ta') {
+        if (taBtn) {
+          taBtn.classList.add('bg-white', 'text-slate-900', 'font-bold');
+          taBtn.classList.remove('text-slate-600');
+        }
+        if (enBtn) {
+          enBtn.classList.remove('bg-white', 'text-slate-900', 'font-bold');
+          enBtn.classList.add('text-slate-600');
+        }
+      } else {
+        if (enBtn) {
+          enBtn.classList.add('bg-white', 'text-slate-900', 'font-bold');
+          enBtn.classList.remove('text-slate-600');
+        }
+        if (taBtn) {
+          taBtn.classList.remove('bg-white', 'text-slate-900', 'font-bold');
+          taBtn.classList.add('text-slate-600');
+        }
+      }
+    }
+
+    // Form Handling
+    function submitEnquiry(e) {
+      e.preventDefault();
+      const btn = document.getElementById('enquiry-submit-btn');
+      const alertBox = document.getElementById('form-feedback');
+
+      btn.disabled = true;
+      btn.innerText = 'Submitting Enquiry...';
+
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.innerText = 'Submitted Successfully ✓';
+        alertBox.classList.remove('hidden');
+        document.getElementById('enquiry-form').reset();
+      }, 600);
+    }
+  </script>
+</body></html>

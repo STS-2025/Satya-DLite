@@ -1,0 +1,363 @@
+[
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\logo.png",
+    "originalRelativePath": "public/assets/logo.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\logo.png",
+    "backupRelativePath": "_image_backup/public/assets/logo.png",
+    "fileSizeBytes": 126985,
+    "sha256": "b9060dcae76dfe5dd865f1fb01864ac9159751e21bf8014fc3768614f75afdd8",
+    "reasonRequired": "Official Brand Logo & Favicon",
+    "references": [
+      "index.html (line 5)",
+      "src/components/Navbar.jsx (line 92)",
+      "src/components/Footer.jsx (line 44)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.807Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\hero_coconut.jpg",
+    "originalRelativePath": "public/assets/hero_coconut.jpg",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\hero_coconut.jpg",
+    "backupRelativePath": "_image_backup/public/assets/hero_coconut.jpg",
+    "fileSizeBytes": 800118,
+    "sha256": "fcebd04b18077179b2e54e00c409d378fc9af3fe23d561958c682f602cbf40b6",
+    "reasonRequired": "Hero Background Fallback & Benefits Section Feature Image",
+    "references": [
+      "src/components/Hero.jsx (line 16)",
+      "src/components/BenefitsSection.jsx (line 144)",
+      "src/data/content.js (line 60, 712)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.816Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\tradition_heritage_dance.jpg",
+    "originalRelativePath": "public/assets/tradition_heritage_dance.jpg",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\tradition_heritage_dance.jpg",
+    "backupRelativePath": "_image_backup/public/assets/tradition_heritage_dance.jpg",
+    "fileSizeBytes": 214847,
+    "sha256": "0acdfc768bf338c90790317b36de2a93d51a7e5dee433d9f31f222f15fff2662",
+    "reasonRequired": "Tradition Story Section Video Poster & Fallback Image",
+    "references": [
+      "src/components/TraditionStory.jsx (line 14)",
+      "src/data/content.js (line 596, 1248)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.820Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\packet_5ml.png",
+    "originalRelativePath": "public/assets/catalogue/packet_5ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\packet_5ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/packet_5ml.png",
+    "fileSizeBytes": 39877,
+    "sha256": "cde35e2c1b59ac7b9ab804c23eae775f278dbd59d0e3068d53c5b37760a3d708",
+    "reasonRequired": "Catalogue Product: packet-5ml (5 ml Sachet)",
+    "references": [
+      "src/data/content.js (line 153 EN, line 805 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.824Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\packet_50ml.png",
+    "originalRelativePath": "public/assets/catalogue/packet_50ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\packet_50ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/packet_50ml.png",
+    "fileSizeBytes": 81969,
+    "sha256": "ce24a5f25baa641f80fede7182f0765d4f7e4ca23891762f72ea0716beb22d32",
+    "reasonRequired": "Catalogue Product: packet-50ml (50 ml Packet)",
+    "references": [
+      "src/data/content.js (line 176 EN, line 828 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.828Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\packet_100ml.png",
+    "originalRelativePath": "public/assets/catalogue/packet_100ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\packet_100ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/packet_100ml.png",
+    "fileSizeBytes": 116188,
+    "sha256": "adc134dd04a1ebb3c242df986dced49e2bb1afed6f2d3668c70fad59b706da00",
+    "reasonRequired": "Catalogue Product: packet-100ml (100 ml Packet)",
+    "references": [
+      "src/data/content.js (line 199 EN, line 851 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.832Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\packet_500ml.png",
+    "originalRelativePath": "public/assets/catalogue/packet_500ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\packet_500ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/packet_500ml.png",
+    "fileSizeBytes": 138043,
+    "sha256": "89d11399d0b0d75bdcf3e4fc86793a5a918c45e4d14cf3db210189c0e255f156",
+    "reasonRequired": "Catalogue Product: packet-500ml (500 ml Kitchen Pouch) & Hero Pouch Fallback",
+    "references": [
+      "src/data/content.js (line 222 EN, line 874 TA)",
+      "src/components/Hero.jsx (line 35)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.836Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\packet_1000ml.png",
+    "originalRelativePath": "public/assets/catalogue/packet_1000ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\packet_1000ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/packet_1000ml.png",
+    "fileSizeBytes": 190048,
+    "sha256": "128b63a8071c6ee1c2b8b0f7870112f8e2640eb4561bb1ebcb1ddea0b222dd70",
+    "reasonRequired": "Catalogue Product: packet-1000ml (1000 ml Master Pouch) & Hero Turntable Featured Pouch",
+    "references": [
+      "src/data/content.js (line 245 EN, line 897 TA)",
+      "src/components/Hero.jsx (line 34)",
+      "index.html (line 21 preload)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.840Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\bottle_50ml.png",
+    "originalRelativePath": "public/assets/catalogue/bottle_50ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\bottle_50ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/bottle_50ml.png",
+    "fileSizeBytes": 39064,
+    "sha256": "ff4eaed7da7d679cca8dc27eac048938ad509f7600be3af2cbb98fc04e82ce0c",
+    "reasonRequired": "Catalogue Product: bottle-50ml (50 ml Pocket Bottle)",
+    "references": [
+      "src/data/content.js (line 270 EN, line 922 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.845Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\bottle_100ml.png",
+    "originalRelativePath": "public/assets/catalogue/bottle_100ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\bottle_100ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/bottle_100ml.png",
+    "fileSizeBytes": 58937,
+    "sha256": "bd764bd4e3ff1615e6c4be077fd20e90130a5bd3b1185daefc5cc62c94a50883",
+    "reasonRequired": "Catalogue Product: bottle-100ml (100 ml Travel Bottle)",
+    "references": [
+      "src/data/content.js (line 293 EN, line 945 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.850Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\bottle_200ml.png",
+    "originalRelativePath": "public/assets/catalogue/bottle_200ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\bottle_200ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/bottle_200ml.png",
+    "fileSizeBytes": 77722,
+    "sha256": "09322423f2d214d568623287522008e28353c9636ea6375d0bfe8bf0d94b0d5a",
+    "reasonRequired": "Catalogue Product: bottle-200ml (200 ml Compact Bottle)",
+    "references": [
+      "src/data/content.js (line 316 EN, line 968 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.853Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\test_clean_500ml.png",
+    "originalRelativePath": "public/assets/catalogue/test_clean_500ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\test_clean_500ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/test_clean_500ml.png",
+    "fileSizeBytes": 155600,
+    "sha256": "688c056669c8934776f49dd84cae4efe7ef8f9ae7cc7117049956d47d74bb77a",
+    "reasonRequired": "Catalogue Product: bottle-500ml (500 ml Family Bottle) & Hero Turntable Featured Bottle",
+    "references": [
+      "src/data/content.js (line 339 EN, line 991 TA)",
+      "src/components/Hero.jsx (line 48)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.857Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\D’lite Coconut Oil Bottle on Black(1).png",
+    "originalRelativePath": "public/assets/catalogue/D’lite Coconut Oil Bottle on Black(1).png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\D’lite Coconut Oil Bottle on Black(1).png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/D’lite Coconut Oil Bottle on Black(1).png",
+    "fileSizeBytes": 2101324,
+    "sha256": "68ebb62dfccf91e08801b41b00c76b678a89bf639b895a54e2dd7e54102cc909",
+    "reasonRequired": "Catalogue Product: bottle-1000ml (1000 ml Pure Nayam Chekku Bottle)",
+    "references": [
+      "src/data/content.js (line 362 EN, line 1014 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.869Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\bottle_500ml.png",
+    "originalRelativePath": "public/assets/catalogue/bottle_500ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\bottle_500ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/bottle_500ml.png",
+    "fileSizeBytes": 155600,
+    "sha256": "688c056669c8934776f49dd84cae4efe7ef8f9ae7cc7117049956d47d74bb77a",
+    "reasonRequired": "Index HTML Preload Link for 500ml bottle showcase",
+    "references": [
+      "index.html (line 22 preload)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.873Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\bottle_1000ml.png",
+    "originalRelativePath": "public/assets/catalogue/bottle_1000ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\bottle_1000ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/bottle_1000ml.png",
+    "fileSizeBytes": 265752,
+    "sha256": "d687a0f08336370e556924e131dad6d3a22fa51fca1b934b322ee311803bfe0b",
+    "reasonRequired": "Hero Turntable Fallback Image for Coconut Bottle",
+    "references": [
+      "src/components/Hero.jsx (line 49)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.877Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\500ml_new_deepanoil.png",
+    "originalRelativePath": "public/assets/catalogue/500ml_new_deepanoil.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\500ml_new_deepanoil.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/500ml_new_deepanoil.png",
+    "fileSizeBytes": 1566863,
+    "sha256": "af2316b31947028e13054ce77b5399ff6fc3a6b7ed275c9c98867bdfa34d2e9f",
+    "reasonRequired": "Hero Turntable Featured Deepam Oil Bottle & Index HTML Preload Link",
+    "references": [
+      "src/components/Hero.jsx (line 62)",
+      "index.html (line 23 preload)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.885Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\dheepennai_200ml.png",
+    "originalRelativePath": "public/assets/catalogue/dheepennai_200ml.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\dheepennai_200ml.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/dheepennai_200ml.png",
+    "fileSizeBytes": 463425,
+    "sha256": "5ee99d268216d60ad04465ddcea093da5fcb4b89a439750fc66e112fd7d3f81e",
+    "reasonRequired": "Catalogue Product: dheepennai-200ml (200 ml Square Deepam Oil Bottle)",
+    "references": [
+      "src/data/content.js (line 435 EN, line 1087 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.890Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\Sathyam Amber Oil Bottle Product Shot.png",
+    "originalRelativePath": "public/assets/catalogue/Sathyam Amber Oil Bottle Product Shot.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\Sathyam Amber Oil Bottle Product Shot.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/Sathyam Amber Oil Bottle Product Shot.png",
+    "fileSizeBytes": 1244382,
+    "sha256": "2466a1ab1eba2ee5c04051b936d1be8c6cf4ec162e3aaf84547439c5b2e6de0a",
+    "reasonRequired": "Catalogue Product: dheepennai-round-500ml (500 ml Round Deepam Oil Bottle)",
+    "references": [
+      "src/data/content.js (line 458 EN, line 1110 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.900Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\SATHYAM Golden Oil Bottle on Black.png",
+    "originalRelativePath": "public/assets/catalogue/SATHYAM Golden Oil Bottle on Black.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\SATHYAM Golden Oil Bottle on Black.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/SATHYAM Golden Oil Bottle on Black.png",
+    "fileSizeBytes": 1355190,
+    "sha256": "edba7feeefe838c7fde6731542cf1928a118a84df745b6d22357a5fc0e1c9786",
+    "reasonRequired": "Catalogue Product: dheepennai-1000ml (1000 ml Deepam Oil Bottle) & Hero Deepam Fallback",
+    "references": [
+      "src/data/content.js (line 481 EN, line 1133 TA)",
+      "src/components/Hero.jsx (line 63)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.910Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\New_tin2.png",
+    "originalRelativePath": "public/assets/catalogue/New_tin2.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\New_tin2.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/New_tin2.png",
+    "fileSizeBytes": 1267581,
+    "sha256": "44e1195eb93da5a268683fc5f08ee58fb42f883cf44fea47ef80bbc8dcb2a31c",
+    "reasonRequired": "Catalogue Product: tin-15kg-kolumbu (15 kg Kolumbu Thengai Ennai Tin)",
+    "references": [
+      "src/data/content.js (line 386 EN, line 1038 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.919Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\New_TIn1.png",
+    "originalRelativePath": "public/assets/catalogue/New_TIn1.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\New_TIn1.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/New_TIn1.png",
+    "fileSizeBytes": 1136137,
+    "sha256": "7d62a576dc64de5a2ed9d1ba15a022ff255d82c968ca97c379ac4b6c1577491e",
+    "reasonRequired": "Catalogue Product: tin-15kg-nayam (15 kg Nayam Thengaai Ennai Tin)",
+    "references": [
+      "src/data/content.js (line 410 EN, line 1062 TA)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.926Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\Satya Delux Coconut Oil Tin in Warehouse.png",
+    "originalRelativePath": "public/assets/catalogue/Satya Delux Coconut Oil Tin in Warehouse.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\Satya Delux Coconut Oil Tin in Warehouse.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/Satya Delux Coconut Oil Tin in Warehouse.png",
+    "fileSizeBytes": 2305444,
+    "sha256": "04fad12964250d1d26b9e94f330b96e9273e9191312bc065b492edeb70ded8a5",
+    "reasonRequired": "Protected 15 kg Coconut Oil Tin Variant (Kolumbu Thengai Ennai blue-label tin in catalogue)",
+    "references": [
+      "Protected Asset Requirement (Section 4)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.939Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\catalogue\\Realistic Satya Delux Coconut Oil Tin.png",
+    "originalRelativePath": "public/assets/catalogue/Realistic Satya Delux Coconut Oil Tin.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\catalogue\\Realistic Satya Delux Coconut Oil Tin.png",
+    "backupRelativePath": "_image_backup/public/assets/catalogue/Realistic Satya Delux Coconut Oil Tin.png",
+    "fileSizeBytes": 1521277,
+    "sha256": "058d1d321a03f834b1eddd3a01971a9dc443d100742e643f687a2aa104746b04",
+    "reasonRequired": "Protected 15 kg Coconut Oil Tin Variant (Nayam Thengaai Ennai green-label tin in catalogue)",
+    "references": [
+      "Protected Asset Requirement (Section 4)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.950Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\Satya Delux Coconut Oil Tin in Warehouse.png",
+    "originalRelativePath": "public/assets/Satya Delux Coconut Oil Tin in Warehouse.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\Satya Delux Coconut Oil Tin in Warehouse.png",
+    "backupRelativePath": "_image_backup/public/assets/Satya Delux Coconut Oil Tin in Warehouse.png",
+    "fileSizeBytes": 2477423,
+    "sha256": "5e1859fb3dd5acbe506366c54da379c7c9516e8451d93645cb825a6631d33ce4",
+    "reasonRequired": "Protected 15 kg Coconut Oil Tin Variant (Kolumbu Thengai Ennai blue-label tin in assets root)",
+    "references": [
+      "Protected Asset Requirement (Section 4)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.966Z"
+  },
+  {
+    "originalPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\public\\assets\\Realistic Satya Delux Coconut Oil Tin.png",
+    "originalRelativePath": "public/assets/Realistic Satya Delux Coconut Oil Tin.png",
+    "backupPath": "d:\\Sathya\\sathya dlite\\sathya dlite\\_image_backup\\public\\assets\\Realistic Satya Delux Coconut Oil Tin.png",
+    "backupRelativePath": "_image_backup/public/assets/Realistic Satya Delux Coconut Oil Tin.png",
+    "fileSizeBytes": 2284246,
+    "sha256": "d7ebaa95bc3a6ddfb3bb9f2b2d1b0bc444d37c357e3e15a89b606377ac5cbb06",
+    "reasonRequired": "Protected 15 kg Coconut Oil Tin Variant (Nayam Thengaai Ennai green-label tin in assets root)",
+    "references": [
+      "Protected Asset Requirement (Section 4)"
+    ],
+    "verified": true,
+    "backedUpAt": "2026-10-13T12:07:54.979Z"
+  }
+]
